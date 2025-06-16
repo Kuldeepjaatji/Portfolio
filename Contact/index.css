@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.contact-section {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.title span {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-box {
+  display: flex;
+  gap: 15px;
+}
+
+.input-box input,
+textarea,
+input[type="text"],
+input[type="email"] {
+  flex: 1;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  resize: none;
+  transition: 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #00ffff;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  background-color: #00ffff;
+  color: #0f2027;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ff;
+  box-shadow: 0 0 15px #00ffff;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #00ffff;
+}
